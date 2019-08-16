@@ -1,0 +1,55 @@
+/* About me section */
+.jumbotron {
+  background-color: #f3f;
+  margin-bottom: 0;
+}
+
+.lead {
+  color: #030404;
+}
+/* ends--About me section */
+
+/* Projects section */
+#projects {
+  background-color: #3c3c3c;
+}
+
+.card {
+  border:5px solid #fff;
+}
+
+.card-body {
+  border-top: 1px solid #808080;
+}
+
+.card-subtitle {
+  color: #535A60;
+}
+
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+a:link {
+  color: #5967E3;
+}
+
+a:hover {
+  color: #764dff;
+}
+/* ends--Projects section */
+
+/* Contacts section */
+#contacts {
+  background-color: #f3f;
+}
+
+.icons {
+  color: #333;
+}
+
+.icons:hover {
+  color: #3f3;
+}
+/* ends--Contacts section */
