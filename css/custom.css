@@ -14,31 +14,66 @@
   background-color: #3c3c3c;
 }
 
+.text-white {
+  color: #fafafa !important;
+}
+
 .card {
-  border:5px solid #fff;
+  border:5px solid #fafafa;
+  background-color: #fafafa;
 }
 
 .card-body {
   border-top: 1px solid #808080;
 }
 
+.card-title {
+  color: #212529;
+}
+
 .card-subtitle {
-  color: #535A60;
+  color: #474f58;
 }
 
 .btn-primary {
-  background-color: #0056b3;
-  border-color: #0056b3;
+  background-color: #0053ae;
+  border-color: #0053ae;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+a.btn.btn-primary {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+a:hover.btn.btn-primary {
+  background-color: #003b7b;
+  border-color: #003b7b;
 }
 
 a:link {
-  color: #5967E3;
+  color: #0053ae;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #0053ae;
 }
 
 a:hover {
-  color: #764dff;
+  color: #4409a4;
+  text-decoration: none;
 }
 /* ends--Projects section */
+
+/* Tools section */
+#tools {
+  background-color: #fafafa;
+}
+/* ends--Tools section */
 
 /* Contacts section */
 #contacts {
